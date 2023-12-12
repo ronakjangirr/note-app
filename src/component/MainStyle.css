@@ -1,0 +1,140 @@
+.main-side-bar {
+    height: 100vh;
+    width: 20rem;
+}
+
+.main-nav {
+    min-height: 5rem;
+    background-color: #E8E8E8;
+}
+
+.main-text-area {
+    background-color: #F7ECDC;
+}
+
+.main-h2-text {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.main-head-text {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.btn.main-btn-style {
+    background-color: black;
+    width: 22rem;
+    color: white;
+    border-radius: 2rem;
+    font-size: 1.3rem;
+    transition: background-color 0.3s;
+    border: 2px solid black;
+}
+
+.btn.main-btn-style:hover {
+    background-color: transparent;
+    border: 2px solid rgb(8, 8, 8);
+}
+
+.btn.main-create-btn {
+    background-color: black;
+    width: 15rem;
+    color: white;
+    font-size: 1.3rem;
+}
+
+@media (min-width: 768px) {
+    .btn.main-btn-style {
+        width: 15rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .btn.main-btn-style {
+        width: 22rem;
+    }
+}
+
+.color-picker-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.color-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+    transition: border 0.3s, width 0.3s, height 0.3s;
+    border: 1px solid transparent;
+}
+
+.color-circle:hover {
+    width: 30px;
+    height: 30px;
+    border: 2px solid black;
+}
+
+.main-color-circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+.color-circle.selected {
+    border: 2px solid #fff;
+}
+
+
+.main-li-style:hover {
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    width: 29.2rem;
+    background-color: #F7ECDC;
+}
+
+
+.main-parent-container {
+    height: 100vh;
+}
+
+.main-first-child {
+    background-color: #F7ECDC;
+    height: 70vh;
+}
+
+.main-second-child {
+    background-color: #E8E8E8;
+    height: 30vh;
+    box-sizing: border-box;
+    /* Include padding in the height calculation */
+}
+
+.main-user-note {
+    max-height: 400px; 
+    overflow-y: auto;
+}
+
+.error-border {
+    border: 1px solid red;
+   
+    border-radius: 7px;
+}
+
+.scrollable-col {
+    max-height: 600px; /* Set your desired max height for scrolling */
+    overflow-y: auto; /* Enable vertical scrolling when content exceeds the max height */
+}
+
+.note-content {
+    word-wrap: break-word;
+}
