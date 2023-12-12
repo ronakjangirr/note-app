@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ronakjangirr/note-app/static/css/main.1bed188d.css",
+    "main.js": "/ronakjangirr/note-app/static/js/main.6f8786bc.js",
+    "static/js/787.0a88745a.chunk.js": "/ronakjangirr/note-app/static/js/787.0a88745a.chunk.js",
+    "index.html": "/ronakjangirr/note-app/index.html",
+    "main.1bed188d.css.map": "/ronakjangirr/note-app/static/css/main.1bed188d.css.map",
+    "main.6f8786bc.js.map": "/ronakjangirr/note-app/static/js/main.6f8786bc.js.map",
+    "787.0a88745a.chunk.js.map": "/ronakjangirr/note-app/static/js/787.0a88745a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1bed188d.css",
+    "static/js/main.6f8786bc.js"
+  ]
+}
